@@ -1,9 +1,17 @@
 <?php
 
-var_dump($_GET["page"]);
+var_dump($_GET);
 
-$page = (isset($_GET["page"]))? $_GET["page"] : "accueil";
+
+
+$page = (isset($_GET["page"]))? $_GET["page"] : "actualite" ;
 
 require "html/accueil.php";
+
+
+
+
+
+
 
 ?>
