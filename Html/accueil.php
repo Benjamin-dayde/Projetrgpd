@@ -5,18 +5,21 @@
     <title>Votre RPGD</title>
 </head>
 <body>
-    <h1>Bienvennue sur le RGPD</h1>
-<section>    
-        <div> <a href= "index.php?page=def">Définition</div>
+    <h1>Bienvenue sur le RGPD</h1>
+<section class="menu">    
 
-        <div> <a href= "index.php?page=verif">Vérification de votre réglementation</div>
+        <div> <a href= "index.php?page=actualite">Toutes l'actu ^-^</a></div>
 
-        <div> <a href= "index.php?page=actu">Toutes l'actu ^-^</div>
+        <div> <a href= "index.php?page=definition">Définition</a></div>
+
+        <div> <a href= "index.php?page=verification">Vérification de votre réglementation</a></div>
+
+        <div> <?php require "html/$page.php" ?> </div>
+
 </section>
 
-<div>
-        <?php require "$page.php" ?>
-</div>
+
+
 
 </body>
 </html>
